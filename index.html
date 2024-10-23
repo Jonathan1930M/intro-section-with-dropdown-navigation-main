@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+</head>
+
+<body>
+
+  <main class="main-container">
+
+    <header>
+      <nav>
+        <img src="./images/logo.svg" alt="logo" class="img-logo">
+        <div class="menu activate" id="menu-Mobile">
+          <section class="section-menu">
+            <div class="logo-closed" id="iconClosed"></div>
+    
+            <section class="section-option">
+              <div class="options-menu unique uhover" id="btnFeature" >Features <span class="arrow" id="arrowFeatures"></span></div>
+              <section class="section-menu-features activate" id="menuFeatures">
+                <div><span class="logo-todo"></span>Todo list</div>
+                <div><span class="logo-calendar"></span>Calendar</div>
+                <div><span class="logo-reminders"></span>Reminders</div>
+                <div><span class="logo-planning"></span>Planning</div>
+              </section>
+              <div class="options-menu unique uhover" id="btnCompany">Company <span class="arrow" id="arrowCompany"></span></div>
+              <section class="section-menu-company activate" id="menuCompany">
+                <div>History</div>
+                <div>Our Team</div>
+                <div>Blog</div>
+              </section>
+              <div class="option uhover">Careers</div>
+              <div class="option uhover">About</div>
+            </section>
+    
+            <button class="button-login">Login</button>
+            <button class="button-register">Register</button>
+          </section>
+        </div>
+        <img src="./images/icon-menu.svg" alt="icon-menu" class="img-menu" id="icon-menu">
+      </nav>
+    </header>
+
+    <section class="section-container">
+      <picture>
+        <figure></figure>
+      </picture><!-- <img src="./images/image-hero-mobile.png" alt="" class="img-main"> -->
+
+      <section class="second-section">
+        <h1>Make remote work</h1>
+
+        <p>
+          Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.
+        </p>
+
+        <button>Learn more</button>
+      
+
+        <footer>
+          <div class="logo-data logos"></div>
+          <div class="logo-audio logos"></div>
+          <div class="logo-meet logos"></div>
+          <div class="logo-maker logos"></div>
+        </footer>
+      </section>
+    </section>
+  
+  </main>
+
+  <script src="./js/script.js"></script>
+  
+</body>
+</html>
